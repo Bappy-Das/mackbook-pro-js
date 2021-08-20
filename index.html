@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap css CDN Link  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Assignment 5</title>
+
+</head>
+
+<body>
+    <main class="container">
+        <div class="row d-flex justify-content-center">
+            <div class="col-5 p-5">
+                <img class="img-fluid" src="images/mac.png" alt="">
+            </div>
+            <div class="col-6">
+                <div class="mt-5">
+                    <h2 class="mb-4">Customize your Blue 24-inch <br> iMac with Apple m1 Chip.</h2>
+                    <p class="text-md-start w-75">Apple M1 chip with 8-core CPU with 4 performance cores and 4 effciency
+                        cores,7-core
+                        GPU,and
+                        16-core Neural Engine 8GB unified memory 256 GB SSD storage Two Thunderbolt / USB 4 ports
+                        Magic
+                        Mouse Magic Keyboard-US English.</p>
+                </div>
+                <div class="py-3">
+                    <h4>Memory</h4>
+                    <input id="8gb-memory" class="btn btn-outline-success fw-bold" type="button"
+                        value="8GB unified memory">
+                    <input id="16gb-memory" class="btn btn-outline-success fw-bold" type="button"
+                        value="16GB unified memory">
+                </div>
+                <div class="py-3">
+                    <h4>Storage</h4>
+                    <input id="256gb-ssd" class="btn btn-outline-success fw-bold" type="button"
+                        value="256GB SSD Storage">
+                    <input id="512gb-ssd" class="btn btn-outline-success fw-bold" type="button"
+                        value="512GB SSD Storage">
+                    <input id="1tb-ssd" class="btn btn-outline-success fw-bold" type="button" value="1TB SSD Storage">
+                </div>
+                <div class="py-3">
+                    <h4>Choose your Delivery Option</h4>
+                    <input id="free-delivery" class="btn btn-outline-success fw-bold" type="button"
+                        value="Friday,Aug 25 FREE rime Delivery">
+                    <input id="paid-delivery" class="btn btn-outline-success fw-bold" type="button"
+                        value="Friday,Aug 21 Delivery Charge $20">
+                </div>
+                <div class="w-50 py-3">
+                    <table class="table">
+                        <tbody>
+                            <tr>
+                                <th scope="col">Best Price</th>
+                                <th scope="col">$ <span id="best-price">1299</span> </th>
+                            </tr>
+                            <tr>
+                                <th scope="col">Extra Memory Cost</th>
+                                <th scope="col">$ <span id="extra-memory">0</span></th>
+                            </tr>
+                            <tr>
+                                <th scope="col">Extra Storage Cost</th>
+                                <th scope="col">$ <span id="extra-storage">0</span></th>
+                            </tr>
+                            <tr>
+                                <th scope="col">Delivery Charge</th>
+                                <th scope="col">$ <span id="deliver-charge">0</span></th>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <th scope="col">Total Price</th>
+                                <th scope="col">$ <span id="total-price">0</span></th>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
+                <h5>Add Promo Code</h5>
+                <div class="d-flex w-50 pb-5">
+                    <input class="form-control me-2" type="search" aria-label="Search">
+                    <button class="btn btn-outline-success fw-bold" type="button">Apply</button>
+                </div>
+            </div>
+            <hr>
+            <h2 class="text-center p-4">Total: $<span>0</span></h2>
+        </div>
+    </main>
+
+
+    <script src="js/app.js"></script>
+    <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>
