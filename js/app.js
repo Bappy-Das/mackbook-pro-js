@@ -33,13 +33,11 @@ function totalPrice() {
 function promo() {
     const inputPromo = document.getElementById('promo-code');
     const afterPromo = document.getElementById('total-after-promo');
-    const total = document.getElementById('total-price');
     const promocode = inputPromo.value;
     let mainPrice = totalPrice();
 
     if (promocode == 'stevekaku') {
         const promoprice = parseInt(mainPrice - ((mainPrice * 20) / 100));
-        total.innerText = promoprice;
         afterPromo.innerText = promoprice;
     }
 }
