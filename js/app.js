@@ -37,7 +37,7 @@ function promo() {
     let mainPrice = totalPrice();
 
     if (promocode == 'stevekaku') {
-        const promoprice = parseInt(mainPrice - ((mainPrice * 20) / 100));
+        const promoprice = mainPrice - ((mainPrice * 20) / 100);
         afterPromo.innerText = promoprice;
     }
 }
